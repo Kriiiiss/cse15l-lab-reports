@@ -1,5 +1,5 @@
-#Kris Chen
-##CSE15L
+# Kris Chen
+## CSE15L
 *I am studying in Computer Science*
 **Nice to meet you!**
 I have some hobbies.
