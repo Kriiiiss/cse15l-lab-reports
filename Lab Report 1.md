@@ -7,13 +7,13 @@
 
    <img width="452" alt="cd1" src="https://github.com/Kriiiiss/cse15l-lab-reports/assets/147010005/9a816db4-cff0-4b5f-ac5c-b9e648c8c93b">
    
-   When the current working directory is "/home" and then use command "cd", it doesn't change and still in directory "/home"
+   When the current working directory is "/home" and then use command "cd", it doesn't change and still in directory "/home".
    
    <img width="406" alt="cd2" src="https://github.com/Kriiiiss/cse15l-lab-reports/assets/147010005/9006f6a2-b6fc-4017-8f61-67271ce4f8ad">
 
-   When the current working directory is "/home/lecture1" and then use command "cd", it changes the directory to "/home"
+   When the current working directory is "/home/lecture1" and then use command "cd", it changes the directory to "/home".
    
-   **cd** means “Change Directory”. It is used to switch the current working directory to the given path. In general, if there's no argument in this command, it means change working directory to the "/home"
+   **cd** means “Change Directory”. It is used to switch the current working directory to the given path. In general, if there's no argument in this command, it means change working directory to the "/home".
 
    **No Error**
    
@@ -26,7 +26,7 @@
 
    When the current working directory is "/home" and then use command with a path to a directory "cd lecture1", it changes the directory to "/home/lecture1"
    
-   **cd** means “Change Directory”. It is used to switch the current working directory to the given path. I use the command cd lecture1 so I change the current directory "/home" to the path "/home/lecture1"
+   **cd** means “Change Directory”. It is used to switch the current working directory to the given path. I use the command "cd lecture1" so I change the current directory "/home" to the path "/home/lecture1"
 
    **No Error**
    
@@ -79,11 +79,6 @@
    **Error:** it doesn't show the list of files and folders since file is the smallest unit and there is no folder and file inside another file.
 
 
-A screenshot or Markdown code block showing the command and its output
-What the working directory was when the command was run
-A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
-Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error.
-
 ---
 ## Command "cat"
 1. Share an example of using the command with no arguments.
@@ -103,7 +98,7 @@ Indicate whether the output is an error or not, and if it’s an error, explain 
 
    The current working directory is "/home".
 
-   **cat** is used to print the contents of one or more files given by the paths. When we use command with a path to a directory "cat lecture1", it will output that lecture1 is a Directory so that it cannot print any content.
+   **cat** is used to print the contents of one or more files given by the paths. When we use command with a path to a directory "cat lecture1", it will output that lecture1 is a Directory and it cannot print any content.
 
    **Error:** it is not a file and cat is only for showing the content of the file, so it cannot be used for a directory.
    
