@@ -1,7 +1,7 @@
 # Lab Report 1 - Remote Access and FileSystem (Week 1)
 
 ## Command "cd"
-1. Share an example of using the command with no arguments.
+* Share an example of using the command with no arguments.
 
    There is no output when command was run, it changes the directory.
 
@@ -18,7 +18,7 @@
    **No Error**
    
 ---
-2. Share an exmaple of using the command with a path to a directory as an argument.
+* Share an exmaple of using the command with a path to a directory as an argument.
 
    There is no output when command was run, it changes the directory.
 
@@ -31,7 +31,7 @@
    **No Error**
    
 ---   
-3. Share an example of using the command with a path to a file as an argument.
+* Share an example of using the command with a path to a file as an argument.
 
    There is no output when command was run, it doesn't change the directory.
 
@@ -46,7 +46,7 @@
 
 ---
 ## Command "ls"
-1. Share an example of using the command with no arguments.
+* Share an example of using the command with no arguments.
 
    <img width="309" alt="ls1" src="https://github.com/Kriiiiss/cse15l-lab-reports/assets/147010005/8ba83787-c0a3-4165-9460-3991acf2a76b">
 
@@ -57,7 +57,7 @@
    **No Error**
 
 ---
-2. Share an exmaple of using the command with a path to a directory as an argument.
+* Share an exmaple of using the command with a path to a directory as an argument.
 
    <img width="397" alt="ls2" src="https://github.com/Kriiiiss/cse15l-lab-reports/assets/147010005/88cfe63b-440c-4bb4-ba43-7e044da5e12f">
 
@@ -68,7 +68,7 @@
    **No Error**
 
 ---
-3. Share an example of using the command with a path to a file as an argument.
+* Share an example of using the command with a path to a file as an argument.
 
    <img width="445" alt="ls3" src="https://github.com/Kriiiiss/cse15l-lab-reports/assets/147010005/13a6fc0b-b3d8-4844-b643-874d4e63d5c0">
 
@@ -81,7 +81,7 @@
 
 ---
 ## Command "cat"
-1. Share an example of using the command with no arguments.
+* Share an example of using the command with no arguments.
    
    <img width="234" alt="cat1" src="https://github.com/Kriiiiss/cse15l-lab-reports/assets/147010005/bf455a4d-6dae-4cf0-a03e-b7b3045e8d0d">
 
@@ -92,7 +92,7 @@
    **No Error**
 
 ---
-2. Share an exmaple of using the command with a path to a directory as an argument.
+* Share an exmaple of using the command with a path to a directory as an argument.
 
    <img width="298" alt="cat2" src="https://github.com/Kriiiiss/cse15l-lab-reports/assets/147010005/eea1a630-9fd2-4656-9101-15aa09ad0d9a">
 
@@ -103,7 +103,7 @@
    **Error:** it is not a file and cat is only for showing the content of the file, so it cannot be used for a directory.
    
 ---
-3. Share an example of using the command with a path to a file as an argument.
+* Share an example of using the command with a path to a file as an argument.
 
    <img width="465" alt="cat3" src="https://github.com/Kriiiiss/cse15l-lab-reports/assets/147010005/52da1139-1d68-4379-a278-5ffd6ad71125">
 
