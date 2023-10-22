@@ -67,7 +67,9 @@ then press "Enter"
   to record my request. If I input the request "/add-message" and the query after it, the **parameters[1]** will record the string message. The **num** is to record the number of query I
   input and **old_s** is to record my previous input and output to the screen. The value of **num** is {1} and the **old_s** is {"Hello"}.
   
-* The value **num** and **old_s** changed if I request to add message to the Server. **num** will count how many times I make a request and **old_s** will record all the message. 
+* The value **num** and **old_s** changed if I request to add message to the Server. **num** will count how many times I make a request and **old_s** will record all the message.
+
+  
 
 <img width="1096" alt="Screenshot 2023-10-22 at 01 31 42" src="https://github.com/Kriiiiss/cse15l-lab-reports/assets/147010005/b930dcf8-1147-4e50-a73c-479eda51a08b">
 
