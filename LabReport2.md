@@ -69,7 +69,8 @@ then press "Enter"
   
 * The value **num** and **old_s** changed if I request to add message to the Server. **num** will count how many times I make a request and **old_s** will record all the message.
 
-  
+
+I type "/add-message?s=How are you" at the end of the link.
 
 <img width="1096" alt="Screenshot 2023-10-22 at 01 31 42" src="https://github.com/Kriiiiss/cse15l-lab-reports/assets/147010005/b930dcf8-1147-4e50-a73c-479eda51a08b">
 
