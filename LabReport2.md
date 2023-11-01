@@ -63,11 +63,11 @@ then press "Enter"
   then the function "public String handleRequest(URI url)" will process my request if I add /add-message to the url.
 
 * In the main funciton, the argument is the port number which is used to start the server. The value of this argument is 4000. In the function "handleRequest", the argument is
-  "URI url". The value of my url is "https://0-0-0-0-4000-j0cdi736itkddfb8tohb3b288g.us.edusercontent.com" in the Edstem. In Class "URLHandler", I use **integer num** and **String old_s**
+  "URI url". The value of my url is "https://0-0-0-0-4000-j0cdi736itkddfb8tohb3b288g.us.edusercontent.com/add-message?s=Hello" in the Edstem. In Class "URLHandler", I use **integer num** and **String old_s**
   to record my request. If I input the request "/add-message" and the query after it, the **parameters[1]** will record the string message. The **num** is to record the number of query I
   input and **old_s** is to record my previous input and output to the screen. The value of **num** is {1} and the **old_s** is {"Hello"}.
   
-* The value **num** and **old_s** changed if I request to add message to the Server. **num** will count how many times I make a request and **old_s** will record all the message.
+* The value **num** and **old_s** changed if I request to "/add-messge" to the Server. **num** will change from 0 to 1 since there is 0 message in Server and my request will add 1 to num.  **old_s** initially has empty string which means **old_s = ""**. After I request to add word "Hello", the **old_s** will change to **old_s = "1. Hello\n"**.
 
 
 I type "/add-message?s=How are you" at the end of the link.
@@ -78,13 +78,15 @@ then press "Enter"
 
 <img width="1112" alt="Screenshot 2023-10-22 at 01 34 01" src="https://github.com/Kriiiiss/cse15l-lab-reports/assets/147010005/dfd648cb-8082-410c-89dc-5f1efe455c00">
 
-* This step is follow by the previous step. The function "public String handleRequest(URI url)" will process my request if I add /add-message to the url.
+* This step is follow by the previous step. I called the method "class Handler implements URLHandler" inside the main functuion. Then the function "public String handleRequest(URI url)" will process my request if I add /add-message to the url.
 
-* The function "handleRequest" will be called as same as the previous one. The **parameters[1]** will record my input string message. **num** will increment 1 since It is my second time
+* In the main funciton, the argument is the port number which is used to start the server. The value of this argument is 4000. In the function "handleRequest", the argument is
+  "URI url". The value of my url is "https://0-0-0-0-4000-j0cdi736itkddfb8tohb3b288g.us.edusercontent.com/add-message?s=How are you" in the Edstem.
+  The function "handleRequest" will be called as same as the previous one. The **parameters[1]** will record my input string message. **num** will increment 1 since It is my second time
   process this request, so the value of **num** this time is 2. **old_s** will record the previous input and print with **parameters[1]** to the screen. The value of **old_s** is "1. Hello"
-  and the **parameters[1]** is "How are you".
+  and the **parameters[1]** is "How are you".(Since the escape charactor "%20" is only display on mac, it is same as " " on Windows.)
 
-* The value **num** and **old_s** will change when I "/add-messge" to the Server. 
+* The value **num** and **old_s** will change when I "/add-messge" to the Server. When I type "/add-message?s=How are you", **num** will change from 1 to 2 since there is 1 message in Server and my request will add 1 to num which is 2. **old_s** change from **old_s = "1. Hello\n"** to **old_s = "1. Hello\n2. How are you"**.
 
 
 ---
