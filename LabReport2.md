@@ -84,7 +84,7 @@ then press "Enter"
   "URI url". The value of my url is "https://0-0-0-0-4000-j0cdi736itkddfb8tohb3b288g.us.edusercontent.com/add-message?s=How are you" in the Edstem.
   The function "handleRequest" will be called as same as the previous one. The **parameters[1]** will record my input string message. **num** will increment 1 since It is my second time
   process this request, so the value of **num** this time is 2. **old_s** will record the previous input and print with **parameters[1]** to the screen. The value of **old_s** is "1. Hello"
-  and the **parameters[1]** is "How are you".(Since the escape charactor "%20" is only display on mac, it is same as " " on Windows.)
+  and the **parameters[1]** is "How are you".(Since the escape charactor "%20" is only display on mac, it is same as " " on Windows and we can ignore + on screen.)
 
 * The value **num** and **old_s** will change when I "/add-messge" to the Server. When I type "/add-message?s=How are you", **num** will change from 1 to 2 since there is 1 message in Server and my request will add 1 to num which is 2. **old_s** change from **old_s = "1. Hello\n"** to **old_s = "1. Hello\n2. How are you"**.
 
@@ -94,11 +94,11 @@ then press "Enter"
 
 The path to the private key for my SSH key on my Computer.
 
-<img width="483" alt="Screenshot 2023-10-22 at 16 18 31" src="https://github.com/Kriiiiss/cse15l-lab-reports/assets/147010005/5568ef01-ab7e-4105-9da3-ea3195cbab3c">
+<img width="459" alt="Screenshot 2023-11-01 at 01 56 03" src="https://github.com/Kriiiiss/cse15l-lab-reports/assets/147010005/365c5467-3153-4a6f-b13b-db231495fc72">
 
 The path to the public key for my SSH key for login ieng6 in my account.
 
-<img width="492" alt="Screenshot 2023-10-22 at 16 22 15" src="https://github.com/Kriiiiss/cse15l-lab-reports/assets/147010005/1cfa9dab-410d-48de-9472-8a21e4bd7875">
+<img width="670" alt="Screenshot 2023-11-01 at 01 59 40" src="https://github.com/Kriiiiss/cse15l-lab-reports/assets/147010005/3781ec0b-0eb4-4427-9a38-f1666ab49dc4">
 
 I don't need to enter my password when I login to the server. 
 
