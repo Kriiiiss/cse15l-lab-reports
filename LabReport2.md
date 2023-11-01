@@ -86,7 +86,7 @@ then press "Enter"
   process this request, so the value of **num** this time is 2. **old_s** will record the previous input and print with **parameters[1]** to the screen. The value of **old_s** is "1. Hello"
   and the **parameters[1]** is "How are you".(Since the escape charactor "%20" is only display on mac, it is same as " " on Windows and we can ignore + on screen.)
 
-* The value **num** and **old_s** will change when I "/add-messge" to the Server. When I type "/add-message?s=How are you", **num** will change from 1 to 2 since there is 1 message in Server and my request will add 1 to num which is 2. **old_s** change from **old_s = "1. Hello\n"** to **old_s = "1. Hello\n2. How are you"**.
+* The value **num** and **old_s** will change when I "/add-messge" to the Server. When I type "/add-message?s=How are you", **num** will change from 1 to 2 since there is 1 message in Server and my request will add 1 to num which is 2. **old_s** change from **old_s = "1. Hello\n"** to **old_s = "1. Hello\n2. How are you\n"**.
 
 
 ---
