@@ -78,7 +78,7 @@ static void reverseInPlace(int[] arr) {
   }
 ```
 
-The purpose of this code is to changes the input array to be in reversed order. For the first test, the output is {3,2,3} which means the index 0 is missing. For the second test, the output is {3} which is correct. I find that if the number of array is large than 1, the bug will appear. For this code, I find that I don't have to reverse each index in a for loop which would cause the already inverted index to invert again, causing an error. So I change the for loop to run arr.length/2 times. The second bug is that the code don't store the number and overwrite it. In this case, I create a veriable called temp to store the previous number so that the value will not be overwrite and assign to reversed index correctly.
+The purpose of this code is to changes the input array to be in reversed order. For the first test, the output is {3,2,3} which means the index[0] is missing. For the second test, the output is {3} which is correct. I find that if the number of array is large than 1, the bug will appear. For this code, I find that I don't have to reverse each index in a for loop which would cause the already inverted index to invert again, causing an error. So I change the for loop to run arr.length/2 times. The second bug is that the code don't store the number and overwrite it. In this case, I create a veriable called temp to store the previous number so that the value will not be overwrite and assign to reversed index correctly.
 
 
 
