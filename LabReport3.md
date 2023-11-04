@@ -14,13 +14,11 @@ public class ArrayExamples {
     }
   }
 }
-
 ```
 
 **1. A failure-inducing input for the buggy program, as a JUnit test and any associated code**
 
 ```
-
 import static org.junit.Assert.*;
 import org.junit.*;
 
@@ -32,13 +30,11 @@ public class ArrayTests {
     assertArrayEquals(new int[]{3,2,1}, input1);
 	}
 }
-
 ```
 
 **2. An input that doesn’t induce a failure, as a JUnit test and any associated code**
 
 ```
-
 import static org.junit.Assert.*;
 import org.junit.*;
 
@@ -50,7 +46,6 @@ public class ArrayTests {
     assertArrayEquals(new int[]{ 3 }, input1);
 	}
 }
-
 ```
 
 **3. The symptom, as the output of running the tests**
@@ -62,22 +57,17 @@ public class ArrayTests {
 Before
 
 ```
-
-
 // Changes the input array to be in reversed order
 static void reverseInPlace(int[] arr) {
   for(int i = 0; i < arr.length; i += 1) {
     arr[i] = arr[arr.length - i - 1];
   }
 }
-
-
 ```
 
 After
 
 ```
-
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length/2; i += 1) {
       int temp;
@@ -86,7 +76,6 @@ static void reverseInPlace(int[] arr) {
       arr[arr.length - i - 1] = temp;
     }
   }
-
 ```
 
 
@@ -118,13 +107,11 @@ technical/biomed/1472-6882-1-10.txt:          antibiotics and the ananase enzyme
 technical/biomed/gb-2002-3-10-research0053.txt:          in pineapple (~70% to 
 technical/biomed/gb-2002-3-12-research0077.txt:          the JAVA applet WebMol [ 35]. In this setting, the color
 technical/biomed/gb-2003-4-8-r51.txt:            visualized using QuickPDB, a Java applet developed by
-
 ```
 
 The command-line options -i is used to search a string in a txt file in whatever uppercase and lowercase. The example above shows that when we search a string "apple", the output shows the uppercase and lowercase "apple" which can help us search more relative information.
 
 ```
-
 % grep -i "HaPPy" technical/plos/*  
 technical/plos/journal.pbio.0020053.txt:        Administration unhappy. “Phage normally are very fragile, their tails break, so lot-to-lot
 technical/plos/journal.pbio.0020140.txt:        mood of two people presented in a pair and, as much as possible, to select the ‘happy’
@@ -138,7 +125,6 @@ technical/plos/pmed.0020118.txt:        medical schools may not be producing doc
 technical/plos/pmed.0020158.txt:        reports and their identities, we are happy to cooperate, subject to the permission of the
 technical/plos/pmed.0020203.txt:        important study at this interface between biology and medicine, and will be happy to talk
 technical/plos/pmed.0020209.txt:            an entire institution whose mission is to approve drugs and make industry happy.”
-
 ```
 
 The command-line options -i is used to search a string in a txt file in whatever uppercase and lowercase. The example above shows that when we search a string "HaPPy", the output shows the uppercase and lowercase "happy" that can help us avoid case errors.
@@ -148,7 +134,6 @@ The command-line options -i is used to search a string in a txt file in whatever
 Option 2 --- "-l"
 
 ```
-
 % grep -l "Pair" technical/biomed/*
 technical/biomed/1471-2105-3-14.txt
 technical/biomed/1471-2105-3-2.txt
@@ -189,13 +174,11 @@ technical/biomed/gb-2003-4-2-r14.txt
 technical/biomed/gb-2003-4-3-r17.txt
 technical/biomed/gb-2003-4-4-r24.txt
 technical/biomed/gb-2003-4-7-r43.txt
-
 ```
 
 The command-line options -l only shows the file which contain string "Pair" exactly. We can only see how many files contain this string and don't care about how many string in one file.
 
 ```
-
 % grep  -l "help" technical/911report/*
 technical/911report/chapter-1.txt
 technical/911report/chapter-10.txt
@@ -213,7 +196,6 @@ technical/911report/chapter-7.txt
 technical/911report/chapter-8.txt
 technical/911report/chapter-9.txt
 technical/911report/preface.txt
-
 ```
 
 The command-line options -l only shows the file which contain string "help". This will help us find which chapter contains the word "help".
@@ -222,23 +204,19 @@ The command-line options -l only shows the file which contain string "help". Thi
 Option 3 --- "-r"
 
 ```
-
 grep  -r "save" technical/911report/*
 technical/911report/chapter-1.txt:    NORAD officials have maintained that they would have intercepted and shot down United 93. We are not so sure. We are sure that the nation owes a debt to the passengers of United 93. Their actions saved the lives of countless others, and may have saved either the Capitol or the White House from destruction.
 technical/911report/chapter-13.4.txt:                Tenet called the supplemental appropriation "a lifesaver." See, for example, the
 technical/911report/chapter-2.txt:                though Iraq's dictator, Saddam Hussein, had never had an Islamist agenda-save for
 technical/911report/chapter-7.txt:                that they wanted to save money. They may also have been reconsidering the wisdom of
 technical/911report/chapter-9.txt:                despite that knowledge to remain in an attempt to save additional lives. According
-
 ```
 
 The command-line options -r shows the line in this file which can help us find how many lines contain "save" in this directory.
 
 ```
-
 grep  -r "AppLe" technical/911report/*
 (The output is empty)
-
 ```
 
 The command-line options -r shows the line in this file which can help us find how many lines contain "AppLe" in this directory. However, option -r can only find the string exactly "AppLe"with same uppercase and lower case. We can find the specific terminology in a text file.
@@ -247,7 +225,6 @@ The command-line options -r shows the line in this file which can help us find h
 Option 4 --- "-n"
 
 ```
-
 % grep  -n "apple" technical/biomed/*
 technical/biomed/1468-6708-3-10.txt:488:        questions requiring large sample sizes and to grapple with
 technical/biomed/1471-2105-3-12.txt:316:            This problem appears to lie in the JAVA applet included
@@ -259,20 +236,17 @@ technical/biomed/1472-6882-1-10.txt:192:          antibiotics and the ananase en
 technical/biomed/gb-2002-3-10-research0053.txt:439:          in pineapple (~70% to 
 technical/biomed/gb-2002-3-12-research0077.txt:469:          the JAVA applet WebMol [ 35]. In this setting, the color
 technical/biomed/gb-2003-4-8-r51.txt:355:            visualized using QuickPDB, a Java applet developed by
-
 ```
 
 The command-line options -n shows the line number of each matched string "apple". It helps us find the line on which the string appears.
 
 ```
-
 grep  -n "File" technical/911report/*
 technical/911report/chapter-13.2.txt:777:            133. FAA Audio File, Herndon Command Center, Boston Center position, line 5115,
 technical/911report/chapter-13.3.txt:768:                of the FAA's Intelligence Case Files. The FBI analyst who worked on the 1998 tasking
 technical/911report/chapter-13.3.txt:834:                FAA records, Intelligence Case File 98-96.
 technical/911report/chapter-13.3.txt:1479:                Case File 98-0199B. A Saudi who had just completed pilot training, boarding a flight
 technical/911report/chapter-13.5.txt:2751:                Eiffel Tower. FAA report, FAA Intelligence Case File 94-305, undated.
-
 ```
 
 The command-line options -n shows the line number of each matched string "file". It helps us find the line on which the string appears.
