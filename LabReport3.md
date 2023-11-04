@@ -2,6 +2,97 @@
 
 ## Part 1 - Bugs
 
+```
+#Original Code
+
+public class ArrayExamples {
+
+  // Changes the input array to be in reversed order
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+}
+
+```
+
+**1. A failure-inducing input for the buggy program, as a JUnit test and any associated code**
+
+```
+
+import static org.junit.Assert.*;
+import org.junit.*;
+
+public class ArrayTests {
+    @Test 
+	public void testReverseInPlace1() {
+    int[] input1 = {1,2,3};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{3,2,1}, input1);
+	}
+}
+
+```
+
+**2. An input that doesn’t induce a failure, as a JUnit test and any associated code**
+
+```
+
+import static org.junit.Assert.*;
+import org.junit.*;
+
+public class ArrayTests {
+	@Test 
+	public void testReverseInPlace2() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+	}
+}
+
+```
+
+**3. The symptom, as the output of running the tests**
+
+<img width="1073" alt="Screenshot 2023-11-04 at 15 08 21" src="https://github.com/Kriiiiss/cse15l-lab-reports/assets/147010005/ce1bc55e-f1bd-454c-9cf9-4960dcefac00">
+
+**4. The bug, as the before-and-after code change required to fix it**
+
+Before
+
+```
+
+
+// Changes the input array to be in reversed order
+static void reverseInPlace(int[] arr) {
+  for(int i = 0; i < arr.length; i += 1) {
+    arr[i] = arr[arr.length - i - 1];
+  }
+}
+
+
+```
+
+After
+
+```
+
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length/2; i += 1) {
+      int temp;
+      temp = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = temp;
+    }
+  }
+
+```
+
+
+
+
+
 
 ## Part 2 - Researching Commands
 
