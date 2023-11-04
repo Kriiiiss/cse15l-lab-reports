@@ -200,7 +200,7 @@ The command-line options -l only shows the file which contain string "help". Thi
 Option 3 --- "-r"
 
 ```
-grep  -r "save" technical/911report/*
+% grep  -r "save" technical/911report/*
 technical/911report/chapter-1.txt:    NORAD officials have maintained that they would have intercepted and shot down United 93. We are not so sure. We are sure that the nation owes a debt to the passengers of United 93. Their actions saved the lives of countless others, and may have saved either the Capitol or the White House from destruction.
 technical/911report/chapter-13.4.txt:                Tenet called the supplemental appropriation "a lifesaver." See, for example, the
 technical/911report/chapter-2.txt:                though Iraq's dictator, Saddam Hussein, had never had an Islamist agenda-save for
@@ -211,7 +211,7 @@ technical/911report/chapter-9.txt:                despite that knowledge to rema
 The command-line options -r shows the line in this file which can help us find how many lines contain "save" in this directory.
 
 ```
-grep  -r "AppLe" technical/911report/*
+% grep  -r "AppLe" technical/911report/*
 (The output is empty)
 ```
 
@@ -237,7 +237,7 @@ technical/biomed/gb-2003-4-8-r51.txt:355:            visualized using QuickPDB, 
 The command-line options -n shows the line number of each matched string "apple". It helps us find the line on which the string appears.
 
 ```
-grep  -n "File" technical/911report/*
+% grep  -n "File" technical/911report/*
 technical/911report/chapter-13.2.txt:777:            133. FAA Audio File, Herndon Command Center, Boston Center position, line 5115,
 technical/911report/chapter-13.3.txt:768:                of the FAA's Intelligence Case Files. The FBI analyst who worked on the 1998 tasking
 technical/911report/chapter-13.3.txt:834:                FAA records, Intelligence Case File 98-96.
