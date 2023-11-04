@@ -82,9 +82,7 @@ The purpose of this code is to changes the input array to be in reversed order. 
 
 
 
-## Part 2 - Researching Commands
-
-**grep**
+## Part 2 - Researching Commands "grep"
 
 Option 1 --- "-i"
 
