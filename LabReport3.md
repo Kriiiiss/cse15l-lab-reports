@@ -81,9 +81,9 @@ The purpose of this code is to changes the input array to be in reversed order. 
 
 
 
-## Part 2 - Researching Commands "grep"
+## Part 2 - Researching Commands `grep`
 
-Option 1 --- "-i"
+Option 1 --- `-i`
 
 ```
 % grep -i "apple" technical/biomed/*
@@ -105,7 +105,7 @@ technical/biomed/gb-2002-3-12-research0077.txt:          the JAVA applet WebMol 
 technical/biomed/gb-2003-4-8-r51.txt:            visualized using QuickPDB, a Java applet developed by
 ```
 
-The command-line options -i is used to search a string in a txt file in whatever uppercase and lowercase. The example above shows that when we search a string "apple", the output shows the uppercase and lowercase "apple" which can help us search more relative information.
+The command-line options `-i` is used to search a string in a txt file in whatever uppercase and lowercase. The example above shows that when we search a string "apple", the output shows the uppercase and lowercase "apple" which can help us search more relative information.
 
 ```
 % grep -i "HaPPy" technical/plos/*  
@@ -123,11 +123,11 @@ technical/plos/pmed.0020203.txt:        important study at this interface betwee
 technical/plos/pmed.0020209.txt:            an entire institution whose mission is to approve drugs and make industry happy.”
 ```
 
-The command-line options -i is used to search a string in a txt file in whatever uppercase and lowercase. The example above shows that when we search a string "HaPPy", the output shows the uppercase and lowercase "happy" that can help us avoid case errors.
+The command-line options `-i` is used to search a string in a txt file in whatever uppercase and lowercase. The example above shows that when we search a string "HaPPy", the output shows the uppercase and lowercase "happy" that can help us avoid case errors.
 
 
 ---
-Option 2 --- "-l"
+Option 2 --- `-l`
 
 ```
 % grep -l "Pair" technical/biomed/*
@@ -172,7 +172,7 @@ technical/biomed/gb-2003-4-4-r24.txt
 technical/biomed/gb-2003-4-7-r43.txt
 ```
 
-The command-line options -l only shows the file which contain string "Pair" exactly. We can only see how many files contain this string and don't care about how many string in one file.
+The command-line options `-l` only shows the file which contain string "Pair" exactly. We can only see how many files contain this string and don't care about how many string in one file.
 
 ```
 % grep  -l "help" technical/911report/*
@@ -194,10 +194,10 @@ technical/911report/chapter-9.txt
 technical/911report/preface.txt
 ```
 
-The command-line options -l only shows the file which contain string "help". This will help us find which chapter contains the word "help".
+The command-line options `-l` only shows the file which contain string "help". This will help us find which chapter contains the word "help".
 
 ---
-Option 3 --- "-r"
+Option 3 --- `-r`
 
 ```
 % grep  -r "save" technical/911report/*
@@ -208,17 +208,17 @@ technical/911report/chapter-7.txt:                that they wanted to save money
 technical/911report/chapter-9.txt:                despite that knowledge to remain in an attempt to save additional lives. According
 ```
 
-The command-line options -r shows the line in this file which can help us find how many lines contain "save" in this directory.
+The command-line options `-r` shows the line in this file which can help us find how many lines contain "save" in this directory.
 
 ```
 % grep  -r "AppLe" technical/911report/*
 (The output is empty)
 ```
 
-The command-line options -r shows the line in this file which can help us find how many lines contain "AppLe" in this directory. However, option -r can only find the string exactly "AppLe"with same uppercase and lower case. We can find the specific terminology in a text file.
+The command-line options `-r` shows the line in this file which can help us find how many lines contain "AppLe" in this directory. However, option `-r` can only find the string exactly "AppLe"with same uppercase and lower case. We can find the specific terminology in a text file.
 
 ---
-Option 4 --- "-n"
+Option 4 --- `-n`
 
 ```
 % grep  -n "apple" technical/biomed/*
@@ -234,7 +234,7 @@ technical/biomed/gb-2002-3-12-research0077.txt:469:          the JAVA applet Web
 technical/biomed/gb-2003-4-8-r51.txt:355:            visualized using QuickPDB, a Java applet developed by
 ```
 
-The command-line options -n shows the line number of each matched string "apple". It helps us find the line on which the string appears.
+The command-line options `-n` shows the line number of each matched string "apple". It helps us find the line on which the string appears.
 
 ```
 % grep  -n "File" technical/911report/*
@@ -245,7 +245,7 @@ technical/911report/chapter-13.3.txt:1479:                Case File 98-0199B. A 
 technical/911report/chapter-13.5.txt:2751:                Eiffel Tower. FAA report, FAA Intelligence Case File 94-305, undated.
 ```
 
-The command-line options -n shows the line number of each matched string "file". It helps us find the line on which the string appears.
+The command-line options `-n` shows the line number of each matched string "file". It helps us find the line on which the string appears.
 
 **Reference**
 https://en.wikibooks.org/wiki/Grep
