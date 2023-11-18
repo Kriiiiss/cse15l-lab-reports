@@ -14,7 +14,7 @@
 
 &nbsp;
 
-/4. Log into `ieng6`
+4. Log into `ieng6`
 
 Keys pressed: `ssh <space> <command>c <command>d <enter>` 
 
@@ -24,7 +24,7 @@ I type `ssh` and copy and paste my account number "cs15lfa23sn@ieng6.ucsd.edu" f
 
 &nbsp;
 
-/5. Clone your fork of the repository from your Github account (using the SSH URL)
+5. Clone your fork of the repository from your Github account (using the SSH URL)
 
 Keys pressed: `git <space> clone <space> <command>c <command>d <enter>`
 
@@ -34,7 +34,7 @@ I type `git clone` and then copy and paste the link `git@github.com:Kriiiiss/lab
 
 &nbsp;
 
-/6. Run the tests, demonstrating that they fail
+6. Run the tests, demonstrating that they fail
 
 Keys pressed: `cd <space> l <tab> <enter>`, `bash <space> t <tab> <enter>`
 
@@ -44,7 +44,7 @@ I type `cd lab7` and press `<enter>` in terminal to change the directory to "lab
 
 &nbsp;
 
-/7. Edit the code file to fix the failing test
+7. Edit the code file to fix the failing test
 
 Keys pressed: `vim <space> L <tab> .java <enter>`, `?1 <enter> n x i 2 <esc> :wq <enter>`
 
@@ -56,7 +56,7 @@ I type `vim ListExamples.java` to enter the vim mode. Since there are java files
 
 &nbsp;
 
-/8. Run the tests, demonstrating that they now succeed
+8. Run the tests, demonstrating that they now succeed
 
 Keys pressed: `bash <space> t <tab> <enter>`
 
@@ -66,7 +66,7 @@ I repeat the previous step and type `bash test.sh` to run the test since the bas
 
 &nbsp;
 
-/9. Commit and push the resulting change to your Github account (you can pick any commit message!)
+9. Commit and push the resulting change to your Github account (you can pick any commit message!)
 
 Keys pressed: `git <space> add <space> L <tab>, git <space> commit <enter>, i fixed <esc> :wq, git <space> push`
 
