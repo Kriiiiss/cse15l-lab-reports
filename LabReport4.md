@@ -42,7 +42,7 @@ I type `cd lab7` and press `<enter>` in terminal to change the directory to "lab
    
 7. Edit the code file to fix the failing test
 
-Keys pressed: `vim <space> L <tab> .java <enter>, ?1 <enter> n x i 2 <esc> :wq <enter>`
+Keys pressed: `vim <space> L <tab> .java <enter>`, `?1 <enter> n x i 2 <esc> :wq <enter>`
 
 I type `vim ListExamples.java` to enter the vim mode. Since there are java files and class files called ListExamples and ListExamplesTest, the `<tab>` will only autofill with ListExamples, I should type ".java" to complete the whole name. Then I enter to the vim mode to edit file. Second step is to change the "index1" to "index2". In command mode of "ListExamples.java", I type `?1 <enter>` to find the number "1" from bottom to top. The error is the second "1" so I press n to move to it. Then type `x` to delete this number since the curser is on "1". After that, I type `i2 <esc>` to change the mode to intert mode and add string 2 to the file and exit intert mode. Then press `:wq` to save and quit the vim.
 
