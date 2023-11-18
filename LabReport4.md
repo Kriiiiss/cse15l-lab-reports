@@ -12,7 +12,7 @@
 9. Commit and push the resulting change to your Github account (you can pick any commit message!)
 ```
 
-<br/>
+&nbsp;
 
 4. Log into `ieng6`
 
@@ -22,7 +22,7 @@ I type `ssh` and copy and paste my account number "cs15lfa23sn@ieng6.ucsd.edu" f
 
 <img width="567" alt="Screenshot 2023-11-15 at 17 37 02" src="https://github.com/Kriiiiss/cse15l-lab-reports/assets/147010005/9b974c4c-e32a-43b9-8a72-dc33b14a9dcc">
 
-<br/>
+&nbsp;
 
 5. Clone your fork of the repository from your Github account (using the SSH URL)
 
@@ -32,7 +32,7 @@ I type `git clone` and then copy and paste the link `git@github.com:Kriiiiss/lab
 
 <img width="715" alt="Screenshot 2023-11-15 at 17 45 19" src="https://github.com/Kriiiiss/cse15l-lab-reports/assets/147010005/87092fb6-4783-4b48-b0ef-048fcce1602f">
 
-<br/>
+&nbsp;
 
 6. Run the tests, demonstrating that they fail
 
@@ -42,7 +42,7 @@ I type `cd lab7` and press `<enter>` in terminal to change the directory to "lab
 
 <img width="612" alt="Screenshot 2023-11-17 at 21 25 02" src="https://github.com/Kriiiiss/cse15l-lab-reports/assets/147010005/f0349953-48aa-428d-83e5-99491c6c67a5">
 
-<br/>
+&nbsp;
 
 7. Edit the code file to fix the failing test
 
@@ -54,7 +54,7 @@ I type `vim ListExamples.java` to enter the vim mode. Since there are java files
 
 <img width="858" alt="Screenshot 2023-11-17 at 21 35 24" src="https://github.com/Kriiiiss/cse15l-lab-reports/assets/147010005/7adee0f2-c2bf-4e52-85f2-4f69e4704f37">
 
-<br/>
+&nbsp;
 
 8. Run the tests, demonstrating that they now succeed
 
@@ -64,7 +64,7 @@ I repeat the previous step and type `bash test.sh` to run the test since the bas
 
 <img width="450" alt="Screenshot 2023-11-17 at 21 43 13" src="https://github.com/Kriiiiss/cse15l-lab-reports/assets/147010005/988c1d62-3728-41be-b2a2-aa439c888a93">
 
-<br/>
+&nbsp;
 
 9. Commit and push the resulting change to your Github account (you can pick any commit message!)
 
