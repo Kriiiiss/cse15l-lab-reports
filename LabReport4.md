@@ -64,7 +64,7 @@ I repeat the previous step and type `bash test.sh` to run the test since the bas
 
 Keys pressed: `git <space> add <space> L <tab>, git <space> commit <enter>, i fixed <esc> :wq, git <space> push`
 
-I type `git add L <tab>` to add file to the staging area since `<tab>` can autofill the file name "ListExamples.java". Then, I type `git commit` to make a commit to the file. The commit is same as vim mode so I press i to switch to the insert mode and type string "fixed" and `<esc>` is used to exit the insert mode. Then `:wq` is to save the commit and exit vim. Finally, type `git push` to push the changed file to the Github repository.
+I type `git add L <tab>` to add file to the staging area since `<tab>` can autofill the file name "ListExamples.java". Then, I type `git commit` to make a commit to the file. The commit is same as vim mode so I press `i` to switch to the insert mode and type string "fixed" and `<esc>` is used to exit the insert mode. Then `:wq` is to save the commit and exit vim. Finally, type `git push` to push the changed file to the Github repository.
 
 <img width="565" alt="Screenshot 2023-11-17 at 21 46 24" src="https://github.com/Kriiiiss/cse15l-lab-reports/assets/147010005/562ebb34-6765-4246-aeae-aaca29ce2a98">
 
