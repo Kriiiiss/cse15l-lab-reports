@@ -35,13 +35,12 @@ I type `git clone` and then copy and paste the link `git@github.com:Kriiiiss/lab
 
 Keys pressed: `cd <space> l <tab> <enter>, bash <space> t <tab> <enter>`
 
-I type `cd lab7` and press `<enter>` in terminal since tab can autofill the folder name for lab7 so I don't have to type the whole name. Then use `bash test.sh` since I run the bash script and type `t` and `<tab>` which can autofill 
-
-
+I type `cd lab7` and press `<enter>` in terminal to change the directory to "lab7" since tab can autofill the folder name for "lab7" in current directory so I don't have to type the whole name. Then use `bash test.sh` to run the test since the bash script can run entire java file and type `t` and `<tab>` can autofill the file name "test.sh".
 
 
    
-4. Edit the code file to fix the failing test
+7. Edit the code file to fix the failing test
+
 
 
    
