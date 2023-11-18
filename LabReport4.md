@@ -13,11 +13,11 @@
 ```
 
 
-4. Log into ieng6
+4. Log into `ieng6`
 
 Keys pressed: `ssh <space> <command>c <command>d <enter>` 
 
-I type `ssh` and copy and paste my account number "cs15lfa23sn@ieng6.ucsd.edu" from my note, and then press `<enter>`. I can successfully log into ieng6 since I have already set key for login the Server `ieng6`
+I type `ssh` and copy and paste my account number "cs15lfa23sn@ieng6.ucsd.edu" from my note, and then press `<enter>`. I can successfully log into `ieng6` since I have already set key for login the Server `ieng6`
 
 <img width="567" alt="Screenshot 2023-11-15 at 17 37 02" src="https://github.com/Kriiiiss/cse15l-lab-reports/assets/147010005/9b974c4c-e32a-43b9-8a72-dc33b14a9dcc">
 
